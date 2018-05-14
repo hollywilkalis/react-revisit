@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Header from './Header';
 import TicketList from './TicketList';
-import NewTicketForm from './NewTicketForm';
+import NewTicketControl from './NewTicketControl';
 import Error404 from './Error404';
 
 function App(){
@@ -15,7 +15,8 @@ function App(){
           exact path='/'
           component= {TicketList} />
         <Route
-          path='/newticket' component={NewTicketForm} />
+          path='/newticket'
+          component={NewTicketControl} />
         <Route
           component={Error404} />
       </Switch>

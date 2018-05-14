@@ -20,3 +20,5 @@ function NewTicketForm(){
     </div>
   );
 }
+
+export default NewTicketForm;
