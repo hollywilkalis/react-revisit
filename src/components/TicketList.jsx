@@ -28,7 +28,7 @@ function TicketList(){
           location={ticket.location}
           issue={ticket.issue}
           key={index}/>
-    )}
+      )}
     </div>
   );
 }
